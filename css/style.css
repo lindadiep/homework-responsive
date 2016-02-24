@@ -289,4 +289,43 @@ footer p {
 }
 
 
+@media screen and (max-width: 768px) {
 
+    nav {
+      width: 100%;
+    }
+
+    #posts {
+        max-width: 80%;
+        float: left;
+    }
+
+    #sidebar {
+        width: 50%;
+        float: left;
+    }
+
+    #bottom-cta {
+        clear: both;
+    }
+
+    h2 {
+      max-width: 80%;
+
+    }
+
+    img {
+      max-width: 80%;
+
+    }
+
+    article.post p {
+      max-width: 80%;
+      word-wrap: break-word;
+    }
+
+    #sidebar p span {
+      word-wrap: break-word;
+
+    }
+}
